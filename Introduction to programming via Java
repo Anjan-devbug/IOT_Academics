@@ -1,1 +1,74 @@
+​Java is a versatile, object-oriented programming language widely used for building various types of applications, from mobile apps to large-scale enterprise systems. For beginners, understanding the fundamentals of Java is crucial for effective programming.​
 
+1. Writing Your First Java Program
+
+A common starting point for learning any programming language is the "Hello, World!" program, which introduces basic syntax and the process of compiling and running code.​
+** Code :- 
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+Explanation :-
+*) public class HelloWorld { ... }:-  Defines a class named HelloWorld. In Java, every application must have at least one class.​
+
+*) public static void main(String[] args) { ... }:- The main method serves as the entry point for the program.​
+
+*) System.out.println("Hello, World!"); :- Prints the string "Hello, World!" to the console.
+ Understanding Java Syntax and Structure
+
+
+2. Understanding Java Syntax and Structure
+Java's syntax is influenced by languages like C++, making it familiar to many programmers. Key elements include:​
+
+*)Variables and Data Types: Java is statically typed, meaning you must declare a variable's type before using it.
+
+*)Control Flow Statements: Java provides standard control flow statements like if, else, for, while, and switch to manage the execution flow of your program.​
+
+*)Methods: Methods in Java are blocks of code designed to perform a specific task. They promote code reusability and organization
+
+*)Object-Oriented Concepts: Java is object-oriented, meaning it uses classes and objects to model real-world entities.
+  ## DataTypes in Java :-
+  Before we go into this they are categorised in two types called = 
+1) Primitive Datatypes :--
+*)  byte: 8-bit signed integer. Range: -128 to 127.
+*)  short: 16-bit signed integer. Range: -32,768 to 32,767.
+*)  int: 32-bit signed integer. Range: -2^31 to 2^31-1.
+*)  long: 64-bit signed integer. Range: -2^63 to 2^63-1.
+*)  float: 32-bit floating point. Useful for saving memory in large arrays of floating point numbers.
+*)  double: 64-bit floating point. Default choice for decimal values.
+*)  char: 16-bit Unicode character. Range: '\u0000' (or 0) to '\uffff' (or 65,535).
+*)  boolean: Represents one bit of information. Only two possible values: true and false.
+(Total 8 Types)
+2) Non -Primitive Datatypes :--
+*) String: Represents a sequence of characters.
+Example: "Hello, World!".
+*) Arrays: Container objects that hold a fixed number of values of a single type. 
+Example: int[] numbers = {1, 2, 3};.
+*) Classes: User-defined blueprints from which objects are created. 
+Example: class Car { ... }.
+*) Interfaces: Abstract types used to specify a behavior that classes must implement. 
+Example: interface Drivable { ... }.
+3) Code for all the datatypes thatf are discussed above :--
+public class DataTypesExample {
+    public static void main(String[] args) {
+        byte b = 100;
+        short s = 10000;
+        int i = 100000;
+        long l = 100000L;
+        float f = 10.5f;
+        double d = 10.5;
+        char c = 'A';
+        boolean bool = true;
+        String str = "Hello, World!";
+        
+        int[] arr = {1, 2, 3, 4, 5};
+        
+        System.out.println("byte: " + b);
+        System.out.println("short: " + s);
+        System.out.println("int: " + i);
+        System.out.println("long: " + l);
+        System.out.println("float: " + f);
+        System.out.println("double: " + d);
+        System.out.println("char: " + c);
+        System.out.println("The Boolean is " + bool);
