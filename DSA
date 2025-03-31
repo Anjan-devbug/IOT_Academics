@@ -2,12 +2,9 @@ Hello  guyz ! this is where i will post stuffs regarding DSA in Java
 # Arrays
 An array is a linear data structure that consists of elements of homogeneous type and stored in memory in the contiguous manner.
 
-if ```arr``` is
-
-| Memory Address | 1000 | 1004 | 1008 | 1012 |
-|---|---|---|---|---|
-| Value  | 20  | 15 | 13| 17 |
-|index| 0 | 1 | 2 | 3 |
+** Memory Address | 1000  1004  1008  1012 |
+Value  | 20  15  13 17 |
+index| 0  1  2  3 |
 
  Java :-
 arr[0] = 20
